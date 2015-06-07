@@ -1,0 +1,11 @@
+{
+  "name": "patternlab-angular",
+  "version": "0.0.1",
+  "description": "Creation of an Angular based PatterLab implementation, originally created by Brad Frost",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jarrod Holder",
+  "license": "MIT"
+}
