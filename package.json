@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jarrod Holder",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.12.4",
+    "gulp": "^3.9.0",
+    "gulp-inject": "^1.2.0",
+    "jade": "^1.10.0"
+  }
 }
