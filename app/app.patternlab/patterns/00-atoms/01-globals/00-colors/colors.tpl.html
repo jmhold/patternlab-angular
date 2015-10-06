@@ -1,0 +1,13 @@
+<div class="sg-pattern">
+    <h2 class="sg-pattern-head">{{colors.patternTitle}}</h2>
+    <div class="sg-pattern-body">
+        <ul class="sg-colors" ng-repeat="category in colors.colorList">
+            <h3>{{category.name}}</h3>
+            <li ng-repeat="color in category.colors">
+                <span class="sg-label">{{color.name}}</span><br />
+                <span class="sg-swatch" style="background: {{color.hex}};"></span>
+                <span class="sg-label">{{color.hex}}</span>
+            </li>
+        </ul>
+    </div>
+</div>

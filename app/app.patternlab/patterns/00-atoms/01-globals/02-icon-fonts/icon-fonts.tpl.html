@@ -1,0 +1,21 @@
+<link href='app.patternlab/patterns/00-atoms/01-globals/02-icon-fonts/assets/style.css' rel='stylesheet' type='text/css'>
+<div class="sg-pattern">
+    <h2 class="sg-pattern-head">{{icons.patternTitle}}</h2>
+    <div class="sg-pattern-body">
+        <style>
+            i{
+                font-size: 200%;
+                padding: 12px;
+                margin: 12px;
+                border: solid 1px #777;
+                border-radius: 6px;
+                float: left;
+            }
+        </style>
+        <i ng-repeat="icon in icons.iconList" class="icon-{{icon.name}}"></i>
+        <div style="clear: both">
+            <a href="app.patternlab/patterns/00-atoms/01-globals/02-icon-fonts/assets/fonts/icomoon.zip" class="sg-swatch"><img width="64" src="assets/file-icon.png" /></a>
+            <span class="sg-label">icomoon.zip</span>
+        </div>
+    </div>
+</div>

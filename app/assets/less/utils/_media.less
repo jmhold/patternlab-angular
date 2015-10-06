@@ -1,0 +1,31 @@
+/* responsive image (max-width: 100%) */
+.rwd-img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* stretched responsive image (width: 100%) */
+
+.rwd-img-st {
+	width: 100%;
+	height: auto;
+}
+
+/* intrinsic ratio wrapper; default 16:9 ratio */
+
+.instrinsic {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	text-align: center;
+	div,
+	embed,
+	object,
+	iframe {
+		position: absolute !important;
+		top: 0;
+		left: 0;
+		width: 100% !important;
+		height: 100% !important;
+	}
+}

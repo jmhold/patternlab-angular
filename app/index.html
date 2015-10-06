@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="assets/temp/styleguide/css/styleguide-specific.css" media="all" />
     <link rel="stylesheet" href="assets/temp/styleguide/css/vendor/typeahead.css" media="all" />
     <link rel="stylesheet" href="assets/temp/styleguide/css/vendor/prism.css" media="all" />
+    <link rel="stylesheet" href="assets/temp/styleguide/css/style.css" media="all" />
+
+    <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href='css/app.css' rel='stylesheet' type='text/css'>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
 </head>
@@ -232,25 +236,67 @@
 </header>
 <!--End Style Guide Header-->
 
-<div ui-view></div>
+<div id="sg-vp-wrap">
+    <div id="sg-gen-container">
+        <div class="sg-main" role="main">
+            <div ui-view></div>
+        </div>
+    </div>
+</div>
+
 
 
 <!--Angular Vendor Modules-->
 <script src="bower_components/angular/angular.min.js"></script>
-<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/ui-router/release/angular-ui-router.min.js"></script>
 <script src="bower_components/angular-animate/angular-animate.min.js"></script>
 <script src="bower_components/angular-cookies/angular-cookies.min.js"></script>
 <script src="bower_components/angular-resource/angular-resource.min.js"></script>
 <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+<script src="bower_components/ng-jsonpath/dist/ng-jsonpath.min.js"></script>
 
 <!--Angular App Modules-->
 <!-- inject:js -->
-<script src="/app/app.patternlab/app.config.js"></script>
-<script src="/app/app.patternlab/app.module.js"></script>
-<script src="/app/app.patternlab/patterns/patterns.route.js"></script>
-<script src="/app/app.patternlab/patterns/00-atoms/globals.route.js"></script>
-<script src="/app/app.patternlab/patterns/00-atoms/01-global/00-colors/colors.controller.js"></script>
-<script src="/app/app.patternlab/patterns/00-atoms/01-global/00-colors/colors.route.js"></script>
+<script src="/app.patternlab/app.module.js"></script>
+<script src="/app.patternlab/app.config.js"></script>
+<script src="/app.patternlab/app.controller.js"></script>
+<script src="/app.patternlab/app.provider.js"></script>
+<script src="/app.patternlab/common/patternInjector.directive.js"></script>
+<script src="/app.patternlab/patterns/patterns.controller.js"></script>
+<script src="/app.patternlab/patterns/patterns.directive.js"></script>
+<script src="/app.patternlab/patterns/patterns.route.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/atoms.controller.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/atoms.directive.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/atoms.route.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/globals.controller.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/globals.directive.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/globals.route.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/02-text/text.directive.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/02-text/text.module.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/02-text/text.route.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/03-images/images.directive.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/03-images/images.module.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/03-images/images.route.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/01-text-fonts/text-fonts.controller.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/01-text-fonts/text-fonts.directive.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/01-text-fonts/text-fonts.route.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/01-text-fonts/text-fonts.service.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/02-icon-fonts/icon-font.service.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/02-icon-fonts/icon-fonts.controller.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/02-icon-fonts/icon-fonts.directive.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/02-icon-fonts/icon-fonts.route.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/00-colors/colors.controller.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/00-colors/colors.directive.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/00-colors/colors.route.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/01-globals/00-colors/colors.service.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/02-text/00-headings/heading.service.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/02-text/00-headings/headings.controller.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/02-text/00-headings/headings.route.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/02-text/01-paragraph/paragraph.controller.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/02-text/01-paragraph/paragraph.route.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/02-text/01-paragraph/paragraph.service.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/03-images/00-logos/logos.directive.js"></script>
+<script src="/app.patternlab/patterns/00-atoms/03-images/00-logos/logos.route.js"></script>
 <!-- endinject -->
 
 

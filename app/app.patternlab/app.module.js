@@ -8,8 +8,14 @@
             'ngAnimate',
             'ngCookies',
             'ngResource',
-            'ngSanitize'
+            'ngSanitize',
+            'ngJSONPath'
         ]
     )
+    .run(function($patterns){
+
+        $patterns.finalizeHierarchy()
+
+    })
 
 })();

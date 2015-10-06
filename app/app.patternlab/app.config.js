@@ -6,7 +6,8 @@
         .config(config);
 
     function config($urlRouterProvider) {
-        $urlRouterProvider.otherwise("/patterns");
+        $urlRouterProvider
+            .otherwise("/patterns");
     }
 
 })();

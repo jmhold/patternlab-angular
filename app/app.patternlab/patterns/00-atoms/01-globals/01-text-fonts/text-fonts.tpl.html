@@ -1,0 +1,19 @@
+<div class="sg-pattern">
+    <h2 class="sg-pattern-head">{{text.patternTitle}}</h2>
+    <div class="sg-pattern-body">
+        <span ng-repeat="style in text.fontStyles" style="{{style.value}}">{{style.name}}&nbsp;&nbsp;</span>
+        <br><br>
+        <div ng-repeat="attr in text.fontAttributes">
+            <h3>{{attr.name}}</h3>
+            <span>{{attr.value}}</span>
+            <br><br>
+        </div>
+        <ul class="sg-colors">
+            <li ng-repeat="file in text.fontFiles">
+                <a href="{{file.source}}" class="sg-swatch"><img width="64" src="assets/file-icon.png" /></a>
+                <span class="sg-label">{{file.name}}</span>
+            </li>
+        </ul>
+        <br><br>
+    </div>
+</div>

@@ -1,0 +1,112 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?6gf0ak');
+	src:url('fonts/icomoon.eot?#iefix6gf0ak') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?6gf0ak') format('truetype'),
+		url('fonts/icomoon.woff?6gf0ak') format('woff'),
+		url('fonts/icomoon.svg?6gf0ak#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-rating-nr:before {
+	content: "\e600";
+}
+.icon-rating-0:before {
+	content: "\e601";
+}
+.icon-rating-1:before {
+	content: "\e602";
+}
+.icon-rating-1p:before {
+	content: "\e603";
+}
+.icon-rating-2:before {
+	content: "\e604";
+}
+.icon-rating-2p:before {
+	content: "\e605";
+}
+.icon-rating-3:before {
+	content: "\e606";
+}
+.icon-rating-3p:before {
+	content: "\e607";
+}
+.icon-rating-4:before {
+	content: "\e608";
+}
+.icon-rating-4p:before {
+	content: "\e609";
+}
+.icon-rating-5:before {
+	content: "\e60a";
+}
+.icon-rating-5p:before {
+	content: "\e60b";
+}
+.icon-rating-6:before {
+	content: "\e60c";
+}
+.icon-rating-6p:before {
+	content: "\e60d";
+}
+.icon-rating-7:before {
+	content: "\e60e";
+}
+.icon-rating-7p:before {
+	content: "\e60f";
+}
+.icon-rating-8:before {
+	content: "\e610";
+}
+.icon-rating-8p:before {
+	content: "\e611";
+}
+.icon-rating-9:before {
+	content: "\e612";
+}
+.icon-rating-9p:before {
+	content: "\e613";
+}
+.icon-rating-10:before {
+	content: "\e614";
+}
+.icon-rating-yes:before {
+	content: "\e615";
+}
+.icon-icon-expand:before {
+	content: "\e616";
+}
+.icon-icon-close:before {
+	content: "\e617";
+}
+.icon-icon-chemical:before {
+	content: "\f3c5";
+}
+.icon-icon-leaf:before {
+	content: "\f1fd";
+}
+.icon-icon-bug:before {
+	content: "\f2be";
+}
+.icon-icon-disease:before {
+	content: "\e618";
+}
+.icon-rating-no:before {
+	content: "\e619";
+}
